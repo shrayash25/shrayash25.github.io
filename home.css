@@ -105,7 +105,8 @@ header {
 
 
 .setbg {
-
+    
+background-color: rgb(216, 216, 216);
     height: 1.65rem;
 }
 
@@ -149,3 +150,40 @@ header {
     background-color: rgb(191, 191, 191);
 }
 
+.pribg{
+    visibility: hidden;
+    height:1.65rem;
+    background-color: rgb(216, 216, 216);
+}
+
+@media (max-width:1330px){
+    #nav-pri{
+       visibility: collapse;
+       
+    }
+
+    #nav-sec{
+        visibility: collapse;
+
+    }
+
+    #nav-tri{
+        visibility: collapse;
+    }
+    #toih{
+        font-size: 150%;
+        margin-top: 0%;
+    }
+    #pribgid{
+        visibility:visible;
+    }
+    #subid{
+        visibility: visible;
+    }
+    #toiplus{
+        visibility: visible;
+    }
+    #toisrch{
+        visibility: visible;
+    }
+}
