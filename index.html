@@ -11,10 +11,12 @@
     <title>News - Latest News, Breaking News, Bollywood, Sports, Business and Political News</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
+<!--Date Printing Code-->
 <body onload="initDate()">
     <header>
-        <div class="navbar">
+        <!--Navigation Bar-->
+        <div class="pribg" id="pribgid"></div>
+        <div class="navbar " id="nav-pri">
             <ul class=" px-12 border">
                 <li>EDITION </li>
                 <li>
@@ -42,18 +44,18 @@
             </ul>
 
             <ul class="flex-1 px-12 border right-0 absolute ">
-                <li class="sb">SUBSCRIBE TO TOI+</li>
+                <li class="sb" id="subid">SUBSCRIBE TO TOI+</li>
                 <li>SIGN IN</li>
             </ul>
         </div>
 
-        <div class="logo ">
+        <div class="logo " id="toih">
             <h1><b><a href="https://timesofindia.indiatimes.com/">THE TIMES OF INDIA</a></b></h1>
         </div>
-
-        <div class="secbg navhead flex  justify-evenly sticky top-0 ">
+<!-- Sticky navigation Bar-->
+        <div class="secbg navhead flex  justify-evenly sticky top-0 " id="nav-sec">
             <ul class="navbg">
-                <li class="nav flex-auto px-5  border"> <span class="pls"><b>TOI+</b></span></li>
+                <li class="nav flex-auto px-5  border" id="toiplus"> <span class="pls"><b>TOI+</b></span></li>
                 <li class="nav flex-auto px-5 border">Explainers</li>
                 <li class="nav flex-auto px-5 border">Video</li>
                 <li class="nav flex-auto px-5 border">City</li>
@@ -66,7 +68,7 @@
                 <li class="nav flex-auto px-5 border">Life & Style</li>
                 <li class="nav flex-auto px-5 border">Education</li>
                 <li class="nav flex-auto px-5 border">Photos</li>
-                <li class="nav flex-auto px-5 border">
+                <li class="nav flex-auto px-5 border" >
                     <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
                 </li>
                 <li class="nav flex-auto px-5 border"><i class="fa-solid fa-bars" style="color: #000000;"></i></li>
@@ -75,7 +77,7 @@
         </div>
 
         <div class="setbg navhead">
-            <ul class="navbg2">
+            <ul class="navbg2" id="nav-tri">
                 <li class="nav2 flex-auto px-7  border"> <span class="pls"><b>IN THE NEWS</b></span></li>
                 <li class="nav2 flex-auto px-7 border">SAFOLLA LIFESTYLE SCORE</li>
                 <li class="nav2 flex-auto px-7 border">COP-28</li>
