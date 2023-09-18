@@ -3,523 +3,134 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News - Latest News, Breaking News, Bollywood, Sports, Business and Political News</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
 </head>
-<!--Date Printing Code-->
-<body onload="initDate()">
+
+<body>
     <header>
-        <!--Navigation Bar-->
-        <div class="pribg" id="pribgid"></div>
-        <div class="navbar " id="nav-pri">
-            <ul class=" px-12 border">
-                <li>EDITION </li>
-                <li>
-                    <div class="ilg">
-                        <div class="lg"></div>
-                    </div>
-                </li>
-                <li>IN</li>
-            </ul>
-            <ul class="flex px-12  border">
-                <li>
-                    <span id="day">Day </span>
-                    <span id="date">00</span>
-                    <span id="month">Month </span>
-                    <span id="year">Year</span>
-
-                </li>
+        <div class="navbar ">
+            <img src="1.png" alt="" class="im1">
+            <ul>
+                <li class="h tl1">Mobirise Theme</li>
+                <li class="dark tl2">About Us</li>
+                <li class="dark tl3">Services</li>
+                <li class="dark tl4">Contacts</li>
+                <li class="dnld tr">Download Now</li>
 
             </ul>
 
-            <ul class="flex px-12 border">
-                <li> <i class="fa-solid fa-location-dot" style="color: #000000;"></i></li>
-                <li>PILANI </li>
-                <li><i class="fa-regular fa-sun" style="color: #000000;"></i></li>
-            </ul>
+            <div class="center">
+                A Better IT Solution Your Business
+            </div>
 
-            <ul class="flex-1 px-12 border right-0 absolute ">
-                <li class="sb" id="subid">SUBSCRIBE TO TOI+</li>
-                <li>SIGN IN</li>
-            </ul>
+            <div class="txt1">
+                Mobirise is a free offline app for Windows and Mac to easily create small/medium websites, landing
+                pages, portfolios. 3500+ beautiful website blocks, templates and themes help you to start easily.
+            </div>
+
         </div>
-
-        <div class="logo " id="toih">
-            <h1><b><a href="https://timesofindia.indiatimes.com/">THE TIMES OF INDIA</a></b></h1>
-        </div>
-<!-- Sticky navigation Bar-->
-        <div class="secbg navhead flex  justify-evenly sticky top-0 " id="nav-sec">
-            <ul class="navbg">
-                <li class="nav flex-auto px-5  border" id="toiplus"> <span class="pls"><b>TOI+</b></span></li>
-                <li class="nav flex-auto px-5 border">Explainers</li>
-                <li class="nav flex-auto px-5 border">Video</li>
-                <li class="nav flex-auto px-5 border">City</li>
-                <li class="nav flex-auto px-5 border">India</li>
-                <li class="nav flex-auto px-5 border">World</li>
-                <li class="nav flex-auto px-5 border">Business</li>
-                <li class="nav flex-auto px-5 border">Auto</li>
-                <li class="nav flex-auto px-5 border">TV</li>
-                <li class="nav flex-auto px-5 border">Web Series</li>
-                <li class="nav flex-auto px-5 border">Life & Style</li>
-                <li class="nav flex-auto px-5 border">Education</li>
-                <li class="nav flex-auto px-5 border">Photos</li>
-                <li class="nav flex-auto px-5 border" >
-                    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
-                </li>
-                <li class="nav flex-auto px-5 border"><i class="fa-solid fa-bars" style="color: #000000;"></i></li>
-
-            </ul>
-        </div>
-
-        <div class="setbg navhead">
-            <ul class="navbg2" id="nav-tri">
-                <li class="nav2 flex-auto px-7  border"> <span class="pls"><b>IN THE NEWS</b></span></li>
-                <li class="nav2 flex-auto px-7 border">SAFOLLA LIFESTYLE SCORE</li>
-                <li class="nav2 flex-auto px-7 border">COP-28</li>
-                <li class="nav2 flex-auto px-7 border">INDIA VS BHARAT CONTROVERSY</li>
-                <li class="nav2 flex-auto px-7 border">CHANDRAYAAN 3</li>
-                <li class="nav2 flex-auto px-7 border">ASIA CUP 2023</li>
-                <li class="nav2 flex-auto px-7 border">G20 SUMMIT IN DELHI</li>
-
-            </ul>
-        </div>
-
     </header>
 
-        <section class="grid lg:grid-cols-5 grid-cols-1 my-5 lg:text-normal text-sm  border-b border-slate-900 border-dashed py-10">
-            <div class="col-span-2 px-5 border-r py-2">
-                <div class="w-full relative group overflow-hidden rounded mb-5">
-                    <img src="s1.png" alt="image1" class="w-full group-hover:scale-110 duration-300">
-                    <p class="text-white absolute bottom-5 left-5 lg:text-2xl text-md">
-                       </p>
+    <container class="cont1">
+        <div class="tit1">Our featured services</div>
+
+        <div class="cards cc">
+            <img src="2.png" class="imc">
+            <h1 class="ch1">No Coding</h1>
+            <b class="cb">Mobirise is an easy website builder. Just drop site elements to your page, add content and
+                style it to look the way you like.</b>
+
+            <b class="but">
+                Learn More >
+            </b>
+
+        </div>
+        <div class="cards2 cc">
+            <img src="3.png" class="imc">
+            <h1 class="ch1">Mobile Friendly</h1>
+            <b class="cb">You don't have to code to create your own site. Select one of available themes in the Mobirise
+                Site Maker.</b>
+
+            <b class="but">
+                Learn More >
+            </b>
+
+        </div>
+        <div class="cards3 cc">
+            <img src="4.png" class="imc">
+            <h1 class="ch1">Unique Styles</h1>
+            <b class="cb">Select the theme that suits you. Each theme in the Mobirise Website Software contains a set of
+                unique blocks.</b>
+
+            <b class="but">
+                Learn More >
+            </b>
+
+        </div>
+
+    </container>
+
+    <container class="cont2">
+       
+            <h1 class="hd2">Automated Software</h1>
+
+            <hr width="100%">
+
+            <div class="grid-container">
+                <div class="grid-item1">
+                    <p class="txt3">/01</p>
+                    <br>
+                    <b class="txt2">Specification</b>
+                    <br>
+                    <p class="txt4">Mobirise is perfect for non-techies who are not familiar with the intricacies of web development.</p>
                 </div>
-                <div class="grid lg:grid-cols-2 grid-cols-1">
-                    <div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                Tata seeks control of Haldiram's, but snack maker...
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s2.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                Tata seeks control of Haldiram's, but snack maker...
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s2.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                Tata seeks control of Haldiram's, but snack maker...
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s2.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                Tata seeks control of Haldiram's, but snack maker...
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s2.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                    
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                Tata seeks control of Haldiram's, but snack maker...
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s2.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="flex px-5 mx-2 border-b py-2">
-                            <p class="mr-2">
-                                Counter attacks on Sanatan Dharma: PM Modi to ministers
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s3.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                Delhi News Live Updates: All schools, colleges and offices...
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s4.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                Proud of my Indian roots & connections to India: Sunak
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s5.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                'Download G20 India app': PM Modi's instructions to ministers
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s6.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                        <div class="flex px-5 border-b py-2">
-                            <p class="mr-2">
-                                India aims to become global refueling hub for green ships
-                            </p>
-                            <div class="rounded overflow-hidden group">
-                                <img src="s7.png" alt="" class="group-hover:scale-110 duration-300 max-h-[150px]">
-                            </div>
-                        </div>
-                    </div>
+                <div class="grid-item2">
+                    <p class="txt3">/02</p>
+                    <br>
+                    <b class="txt2">Project Planning
+                    </b>
+                    <br>
+                    <p class="txt4">Mobirise is perfect for non-techies who are not familiar with the intricacies of web development.</p>
                 </div>
-            </div>
-            <div class="px-5 py-2">
-                <div class="mb-5">
-                    <div class="group overflow-hidden rounded max-h-[170px]">
-                        <img src="1q.png" class="group-hover:scale-105 duration-300" alt="">
-                    </div>
-                    <p>What triggered Gautam Gambhir at Asia Cup: ‘Kohli Kohli’ chant or anti-India slogans?...
-                    </p>
+                <div class="grid-item3">
+                    <p class="txt3">/03</p>
+                    <br>
+                    <b class="txt2">Specification</b>
+                    <br>
+                    <p class="txt4">Mobirise is perfect for non-techies who are not familiar with the intricacies of web development.</p>
                 </div>
-                <div class="mb-5">
-                    <div class="group overflow-hidden rounded max-h-[170px]">
-                        <img src="1q.png" class="group-hover:scale-105 duration-300" alt="">
-                    </div>
-                    <p>What triggered Gautam Gambhir at Asia Cup: ‘Kohli Kohli’ chant or anti-India slogans?...
-                    </p>
+                <div class="grid-item4">
+                    <p class="txt3">/04</p>
+                    <br>
+                    <b class="txt2">Specification</b>
+                    <br>
+                    <p class="txt4">Mobirise is perfect for non-techies who are not familiar with the intricacies of web development.</p>
                 </div>
-                <div class="mb-5">
-                    <div class="group overflow-hidden rounded max-h-[170px]">
-                        <img src="1q.png" class="group-hover:scale-105 duration-300" alt="">
-                    </div>
-                    <p>What triggered Gautam Gambhir at Asia Cup: ‘Kohli Kohli’ chant or anti-India slogans?...
-                    </p>
+                <div class="grid-item5">
+                    <p class="txt3">/05</p>
+                    <br>
+                    <b class="txt2">Specification</b>
+                    <br>
+                    <p class="txt4">Mobirise is perfect for non-techies who are not familiar with the intricacies of web development.</p>
+                </div>
+                <div class="grid-item6">
+                    <p class="first">Project Planning</p>
+                    <p class="second">Mobirise is perfect for non-techies who are not familiar with the intricacies of web development.</p>
+                    <b class="but2">
+                        Create your own site
+                    </b>
                 </div>
                 
             </div>
-            <div class="col-span-2">
-                <div class="m-5 bg-[#fff5f6] rounded-lg p-5">
-                    <div class="flex justify-between items-center">
-                        <a href="#" class="font-bold md:text-5xl text-2xl">TOI<span class="text-[#ec2227]">+</span></a>
-                        <p class="text-[#e71b22] md:text-lg text-sm">READ MORE STORIES &gt;</p>
-                    </div>
-                    <div class="my-2 text-md">
-                        <p class="font-bold">Read in-depth stories by experts</p>
-                    </div>
-                    <div class="flex group justify-between items-center my-5">
-                        <p class="lg:text-lg text-normal">India or Bharat: Why not both?</p>
-                        <img src="s8.png" alt="" class="w-5/12 rounded group-hover:scale-105 duration-300">
-                    </div>
-                    
-                    
-                </div>
-                <div class="px-6">
-                    <div class="border-b border-b-slate-400 py-2">
-                        <a href="#" class="flex items-center space-x-4">
-                            <div class="rounded-full border border-slate-900 w-3 h-3"></div>
-                            <p class="text-lg">Watch: INDIA vs BHARAT | BJP doing this to wipe ...</p>
-                        </a>
-                    </div>
-                    <div class="border-b border-b-slate-400 py-2">
-                        <a href="#" class="flex items-center space-x-4">
-                            <div class="rounded-full border border-slate-900 w-3 h-3"></div>
-                            <p class="text-lg">NASA's Moon orbiter LRO spots Chandrayaan 3...</p>
-                        </a>
-                    </div>
-                    <div class="border-b border-b-slate-400 py-2">
-                        <a href="#" class="flex items-center space-x-4">
-                            <div class="rounded-full border border-slate-900 w-3 h-3"></div>
-                            <p class="text-lg">Undying Dread: 400 year old corpse found...</p>
-                        </a>
-                    </div>
-                    <div class="border-b border-b-slate-400 py-2">
-                        <a href="#" class="flex items-center space-x-4">
-                            <div class="rounded-full border border-slate-900 w-3 h-3"></div>
-                            <p class="text-lg">Airline deboards flyyer for saying no to...</p>
-                        </a>
-                    </div>
-                    
-                    
-                </div>
-            </div>
-        </section>
-
-        <section class="grid lg:grid-cols-3 sm:px-5 border-b border-slate-900 border-dashed py-10">
-            <div class="mx-2">
-                <div>
-                    <h1 class="text-xl font-bold">Auto &gt;</h1>
-                </div>
-                <div class="border-b py-5 flex">
-                    <div class="overflow-hidden group rounded-lg w-1/2">
-                        <img src="s9.png" alt="" class="w-full group-hover:scale-110 duration-300">
-                    </div>
-                    <p class="text-lg px-5">
-                        TVS Apache RTR 310 India launch Live Updates: Price, features, Mileage,...
-                    </p>
-                </div>
-                <div class="grid grid-cols-2">
-                    <p class="border-r px-5 my-5">Top 10 best-selling carmakers in India in August 2023</p>
-                    <p class="px-5 my-5">Honda Amaze, City gets costlier: Check new prices and the variants...</p>
-                </div>
-            </div>
-            <div class="mx-2">
-                <div>
-                    <h1 class="text-xl font-bold">Viral &gt;</h1>
-                </div>
-                <div class="border-b py-5 flex">
-                    <div class="overflow-hidden group rounded-lg w-1/2">
-                        <img src="s9.png" alt="" class="w-full group-hover:scale-110 duration-300">
-                    </div>
-                    <p class="text-lg px-5">
-                        TVS Apache RTR 310 India launch Live Updates: Price, features, Mileage,...
-                    </p>
-                </div>
-                <div class="grid grid-cols-2">
-                    <p class="border-r px-5 my-5">Top 10 best-selling carmakers in India in August 2023</p>
-                    <p class="px-5 my-5">Honda Amaze, City gets costlier: Check new prices and the variants...</p>
-                </div>
-            </div>
-            <div class="mx-2">
-                <div>
-                    <h1 class="text-xl font-bold">Viral &gt;</h1>
-                </div>
-                <div class="border-b py-5 flex">
-                    <div class="overflow-hidden group rounded-lg w-1/2">
-                        <img src="s9.png" alt="" class="w-full group-hover:scale-110 duration-300">
-                    </div>
-                    <p class="text-lg px-5">
-                        TVS Apache RTR 310 India launch Live Updates: Price, features, Mileage,...
-                    </p>
-                </div>
-                <div class="grid grid-cols-2">
-                    <p class="border-r px-5 my-5">Top 10 best-selling carmakers in India in August 2023</p>
-                    <p class="px-5 my-5">Honda Amaze, City gets costlier: Check new prices and the variants...</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="px-5 py-10">
-            <h1 class="text-xl font-bold">Spotlight</h1>
-            <div class="grid lg:grid-cols-3 mt-5 gap-20">
-                <img src="m1.png" alt="" class="w-full group-hover:scale-110 duration-300">
-            </div>
-        </section>
-
-        <footer class="md:px-20 px-3 border-t-2 border-black grid md:grid-cols-3 py-5">
-            <div class="grid-rows-3">
-                <div>
-                    <img src="toi.png" alt="" class="md:w-1/2 w-full">
-                    <div class="flex">
-                        <ul class="space-y-2 w-1/2 pr-5">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Create your own ads</a></li>
-                            <li><a href="#">Terms of Use and Grievance Redressal Policy</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Advertise with us</a></li>
-                        </ul>
-                        <ul class="space-y-2 w-1/2">
-                            <li>RSS</li>
-                            <li>Newsletter</li>
-                            <li>Feedback</li>
-                            <li>ePaper</li>
-                            <li>Sitemap</li>
-                            <li>Archives</li>
-                        </ul>
-                    </div>
-                </div>
-    
-                <h1 class="font-bold my-5">FOLLOW US ON</h1>
-                <div class="flex space-x-5">
-                    <img src="s10.png" class="w-full cursor-pointer " alt="">
-                    
-                </div>
-    
-                <h1 class="font-bold my-5">OTHER TIMES GROUP NEWS SITES</h1>
-                <div class="flex">
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">The Economics Times</a></li>
-                        <li><a href="#">Hindi Economic Times</a></li>
-                        <li><a href="#">NavBharat Times</a></li>
-                        <li><a href="#">Maharashtra Times</a></li>
-                        <li><a href="#">Vijaya Karnataka</a></li>
-                        <li><a href="#">Telugu Samayam</a></li>
-                        <li><a href="#">Tamil Samayam</a></li>
-                        <li><a href="#">Malayalam Samayam</a></li>
-                        <li><a href="#">Ei Samay</a></li>
-                    </ul>
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">I am Gujarat</a></li>
-                        <li><a href="#">Times Now</a></li>
-                        <li><a href="#">Times Now Navbharat</a></li>
-                        <li><a href="#">TimesPoints</a></li>
-                        <li><a href="#">Indiatimes</a></li>
-                        <li><a href="#">Brand Capital</a></li>
-                        <li><a href="#">Education Times</a></li>
-                        <li><a href="#">Times Food</a></li>
-                        <li><a href="#">Miss Kyra</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div>
-                <h1 class="font-bold my-5">POPULAR CATEGORIES</h1>
-                <div class="flex">
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">Headlines</a></li>
-                        <li><a href="#">Sports News</a></li>
-                        <li><a href="#">Business News</a></li>
-                        <li><a href="#">India News</a></li>
-                        <li><a href="#">World News</a></li>
-                    </ul>
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">Bollywood News</a></li>
-                        <li><a href="#">Health &amp; Fitness Tips</a></li>
-                        <li><a href="#">Indian TV Shows</a></li>
-                        <li><a href="#">Celebrity Photos</a></li>
-                    </ul>
-                </div>
-    
-                <h1 class="font-bold my-5">TOP TRENDS</h1>
-                <div class="flex">
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">Bangladesh vs Afghanistan Live Score</a></li>
-                        <li><a href="#">Aditya L1</a></li>
-                        <li><a href="#">Aditya L1 Launch Time</a></li>
-                        <li><a href="#">India vs Pakistan</a></li>
-                        <li><a href="#">ISRO Sun Mission</a></li>
-                        <li><a href="#">Virat Kohli</a></li>
-                        <li><a href="#">Aditya L1 Mission</a></li>
-                        <li><a href="#">Rajasthan Woman Paraded</a></li>
-                    </ul>
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">India Super Four Qualify</a></li>
-                        <li><a href="#">Aditya L1 Countdown</a></li>
-                        <li><a href="#">Delhi G20 Summit</a></li>
-                        <li><a href="#">Chandrayaan 3</a></li>
-                        <li><a href="#">India GDP</a></li>
-                        <li><a href="#">Chandrayaan 3 Pragyan Rover</a></li>
-                        <li><a href="#">Adani news</a></li>
-                        <li><a href="#">Chandrayaan 3 Discovery on Moon</a></li>
-                        <li><a href="#">Asia Cup 2023 Schedule</a></li>
-                    </ul>
-                </div>
-    
-                <h1 class="font-bold my-5">LIVING AND ENTERTAINMENT</h1>
-                <div class="flex">
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">Viral News</a></li>
-                        <li><a href="#">Viral Videos</a></li>
-                        <li><a href="#">Femina</a></li>
-                        <li><a href="#">ETimes</a></li>
-                        <li><a href="#">Grazia</a></li>
-                        <li><a href="#">Zoom</a></li>
-                        <li><a href="#">Travel Destinations</a></li>
-                        <li><a href="#">Bombay Times</a></li>
-                        <li><a href="#">Cricbuzz.com</a></li>
-                    </ul>
-                    <ul class="space-y-2 w-1/2 md:px-0 px-2 md:text-normal text-sm">
-                        <li><a href="#">Filmfare</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">Lifestyle</a></li>
-                        <li><a href="#">Longwalks App</a></li>
-                        <li><a href="#">Newspaper Subscription</a></li>
-                        <li><a href="#">Food News</a></li>
-                        <li><a href="#">Times Prime</a></li>
-                        <li><a href="#">Whats Hot</a></li>
-                    </ul>
-                </div>
-            </div>
-    
-            <div>
-                <h1 class="font-bold my-5">HOT ON THE WEB</h1>
-                <div class="flex">
-                    <ul class="space-y-2 w-1/2">
-                        <li><a href="#">Kushi Review</a></li>
-                        <li><a href="#">Jawan Trailer</a></li>
-                        <li><a href="#">Parenting Tips</a></li>
-                        <li><a href="#">Unhealthy Food</a></li>
-                        <li><a href="#">Mouni Roy</a></li>
-                    </ul>
-                    <ul class="space-y-2 w-1/2">
-                        <li><a href="#">Beauty Tips</a></li>
-                        <li><a href="#">Amala Paul</a></li>
-                        <li><a href="#">Indian Cricketer</a></li>
-                        <li><a href="#">Mishri Benefits</a></li>
-                        <li><a href="#">Mouni Roy</a></li>
-                    </ul>
-                </div>
-    
-                <h1 class="font-bold my-5">TRENDING TOPICS</h1>
-                <div class="flex">
-                    <ul class="space-y-2 w-1/2 pr-5">
-                        <li><a href="#">Kushi Movie Review</a></li>
-                        <li><a href="#">Jimin</a></li>
-                        <li><a href="#">Kushi Box Office Collection</a></li>
-                        <li><a href="#">Salaar Release Date</a></li>
-                        <li><a href="#">Tiger 3</a></li>
-                        <li><a href="#">Ushasi Ray</a></li>
-                        <li><a href="#">Aditya L1</a></li>
-                        <li><a href="#">King OF kotha Collection</a></li>
-                        <li><a href="#">Dream Girl 2 Review</a></li>
-                        <li><a href="#">Jungkook</a></li>
-                    </ul>
-                    <ul class="space-y-2 w-1/2 pr-5">
-                        <li><a href="#">Samantha Prabhu</a></li>
-                        <li><a href="#">Kanjeevaram Sari</a></li>
-                        <li><a href="#">Keerthy Suresh</a></li>
-                        <li><a href="#">Amala Paul</a></li>
-                        <li><a href="#">Zodiac Signs</a></li>
-                        <li><a href="#">Gadar 2 Collection</a></li>
-                        <li><a href="#">Vivo Y55s</a></li>
-                        <li><a href="#">Laptops under 30000</a></li>
-                        <li><a href="#">WiFi Routers</a></li>
-                        <li><a href="#">Tablets under 15000</a></li>
-                    </ul>
-                </div>
-    
-                <h1 class="font-bold my-5">SERVICES</h1>
-                <div class="flex">
-                    <ul class="space-y-2 w-1/2 pr-5">
-                        <li><a href="#">CouponDunia</a></li>
-                        <li><a href="#">Magicbricks</a></li>
-                        <li><a href="#">TechGig</a></li>
-                        <li><a href="#">TimesJobs</a></li>
-                        <li><a href="#">Bollywood News</a></li>
-                    </ul>
-                    <ul class="space-y-2 w-1/2 pr-5">
-                        <li><a href="#">Times Mobile</a></li>
-                        <li><a href="#">Gadgets Now</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Colombia</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-
-        <section>
-            <p class="bottfoot">
-                Copyright © 2023 Bennett, Coleman & Co. Ltd. All rights reserved. For reprint rights: Times Syndication Service
-            </p>
-        </section>
+    </container >
 
 
-   
-    <script src="main.js"></script>
-    <script>
-
-    </script>
 
 </body>
 
