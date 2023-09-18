@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar {
+    position: relative;
+    padding-bottom: 5rem;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.h {
+    color: rgb(43, 107, 117);
+
+    font-size: 115%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.h:hover {
+    color: black;
+}
+
+.dark {
+    padding: 2rem;
+
+    color: rgb(89, 89, 89);
+}
+
+.dark:hover {
+    color: black;
+}
+
+.dnld {
+    margin-left: 30rem;
+    border: 1.5rem;
+    border-color: aqua;
+    border-radius: 2rem;
+    padding: 0.9rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: rgb(43, 107, 117);
+    color: white;
+
+}
+
+.dnld:hover {
+    background-color: rgb(26, 66, 72);
+    ;
+}
+
+.tl1 {
+    position: absolute;
+    top: 2rem;
+}
+
+.tl2 {
+    position: absolute;
+    top: 0.2rem;
+    left: 15rem;
+}
+
+.tl3 {
+    position: absolute;
+    top: 0.2rem;
+    left: 22.5rem;
+}
+
+.tl4 {
+    position: absolute;
+    top: 0.2rem;
+    left: 30rem;
+}
+
+.tr {
+    position: absolute;
+    top: 1.7rem;
+    right: 7rem;
+
+}
+
+.im1 {
+    height: 40rem;
+    position: absolute;
+    right: 4rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.center {
+    color: rgb(43, 107, 117);
+    position: absolute;
+    Padding: 4rem;
+    max-width: 30rem;
+    Top: 7.5rem;
+    font-size: 450%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt1 {
+    position: absolute;
+    top: 27.5rem;
+    max-width: 30rem;
+    Padding: 4rem;
+    padding-top: 0;
+    color: rgb(89, 89, 89);
+    line-height: 175%;
+}
+
+.tit1 {
+    color: rgb(43, 107, 117);
+    font-size: 450%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    Padding: 5rem;
+    Top: 45rem;
+}
+
+.cards {
+    position: absolute;
+    top: 58rem;
+    padding: 3rem;
+    max-width: 21rem;
+    left: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cards2 {
+    position: absolute;
+    top: 58rem;
+    padding: 3rem;
+    max-width: 21rem;
+    left: 31.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.cards3 {
+    position: absolute;
+    top: 58rem;
+    padding: 3rem;
+    max-width: 21rem;
+    left: 60rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.cc {
+    background-color: rgb(72, 133, 142);
+    border-radius: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20rem;
+}
+
+.ch1 {
+    color: white;
+    padding: 0.75rem;
+}
+
+.cb {
+    color: rgb(167, 205, 211);
+    line-height: 150%;
+    padding: 2rem;
+}
+
+.but {
+    display: block;
+    padding: 1rem;
+    border-radius: 1.75rem;
+    margin-top: 3rem;
+    background-color: rgb(129, 182, 178);
+    color: white;
+    bottom: 0;
+    width: 8rem;
+}
+
+.but:hover {
+    background-color: rgb(113, 161, 157);
+}
+
+.imc {
+    width: 7rem;
+}
+
+.cont1 {
+    padding-bottom: 7rem;
+    padding: 5rem;
+
+}
+
+.cont2{
+    position: absolute;
+    top: 100rem;
+    background-color: rgb(238, 246, 249);
+    left:0;
+    padding:2rem 42rem 3rem 6rem;
+   
+    
+}
+
+.hd2{
+    color: rgb(43, 107, 117);
+    font-size:400%;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom:2rem;
+}
+
+.grid-container{
+    padding:4rem;
+    display:grid;
+    gap:4rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width:75rem;
+    height: 50rem;
+    
+}
+
+.txt2{
+   
+    font-size:150%;
+    color: rgb(43, 107, 117);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.txt3{
+    font-size:120%;
+    color:rgb(117, 155, 155)
+}
+.txt4{
+    color:rgb(82, 82, 82);
+    line-height: 150%;
+}
+
+.grid-item6{
+    background-color: rgb(43, 107, 117);
+    padding:3rem;
+    
+}
+
+.first{
+    color:white;
+    font-size:150%;
+    padding:1rem;
+}
+
+.second{
+    color:white;
+    line-height:150%;
+    padding:1rem;
+}
+
+.but2 {
+    display: block;
+    padding: 1rem;
+    border-radius: 1.75rem;
+    margin-top: 3rem;
+    background-color: rgb(129, 182, 178);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    bottom: 0;
+    width: 13rem;
+}
