@@ -193,66 +193,68 @@ ul li {
 
 }
 
-.cont2{
+.cont2 {
     position: absolute;
     top: 100rem;
     background-color: rgb(238, 246, 249);
-    left:0;
-    padding:2rem 42rem 3rem 6rem;
-   
-    
+    left: 0;
+    padding: 2rem 42rem 3rem 6rem;
+
+
 }
 
-.hd2{
+.hd2 {
     color: rgb(43, 107, 117);
-    font-size:400%;
+    font-size: 400%;
     font-family: 'Montserrat', sans-serif;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
 }
 
-.grid-container{
-    padding:4rem;
-    display:grid;
-    gap:4rem;
+.grid-container {
+    padding: 4rem;
+    display: grid;
+    gap: 4rem;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width:75rem;
-    height: 50rem;
-    
+    width: 75rem;
+    height: 45rem;
+
 }
 
-.txt2{
-   
-    font-size:150%;
+.txt2 {
+
+    font-size: 150%;
     color: rgb(43, 107, 117);
     font-family: 'Montserrat', sans-serif;
 
 }
-.txt3{
-    font-size:120%;
-    color:rgb(117, 155, 155)
+
+.txt3 {
+    font-size: 120%;
+    color: rgb(117, 155, 155)
 }
-.txt4{
-    color:rgb(82, 82, 82);
+
+.txt4 {
+    color: rgb(82, 82, 82);
     line-height: 150%;
 }
 
-.grid-item6{
+.grid-item6 {
     background-color: rgb(43, 107, 117);
-    padding:3rem;
-    
+    padding: 3rem;
+
 }
 
-.first{
-    color:white;
-    font-size:150%;
-    padding:1rem;
+.first {
+    color: white;
+    font-size: 150%;
+    padding: 1rem;
 }
 
-.second{
-    color:white;
-    line-height:150%;
-    padding:1rem;
+.second {
+    color: white;
+    line-height: 150%;
+    padding: 1rem;
 }
 
 .but2 {
@@ -265,4 +267,67 @@ ul li {
     color: white;
     bottom: 0;
     width: 13rem;
+}
+
+.tit2 {
+
+    color: rgb(43, 107, 117);
+    font-size: 450%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    Padding: 5rem;
+    Top: 165rem;
+
+}
+
+.map {
+    position: absolute;
+    height: 30rem;
+    top: 177rem;
+    left: 4rem;
+}
+
+.grid-container2 {
+    position: absolute;
+    top: 215rem;
+
+    background-color: rgb(43, 107, 117);
+
+    padding: 4rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 90rem;
+    ;
+    height: 20rem;
+    color: white;
+}
+
+.img2 {
+    height: 10rem;
+    
+}
+
+.grid-item222 ul{
+    list-style: none;
+}
+
+.grid-item22 li{
+display:block;
+}
+
+.pf{
+    line-height:150%;
+    color:rgb(198, 194, 194);
+}
+
+.final{
+    display:flex;
+    position:absolute;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(251, 251, 251);
+    top:237rem;
+    left:30rem;
 }
