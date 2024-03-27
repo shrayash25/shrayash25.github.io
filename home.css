@@ -1,0 +1,30 @@
+/* Created by Tivotal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .tss{
+  color:rgb(0, 255, 140);
+  padding: 5rem;;
+  }
+  .tss a{
+    color:rgb(0, 255, 140);
+  }
+
+  .tss ul li{
+    list-style:none;
+    padding:2rem;
+  }
