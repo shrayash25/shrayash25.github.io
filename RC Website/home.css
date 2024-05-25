@@ -5,6 +5,8 @@
   font-family: "Jost";
 }
 
+
+
 .navbar {
   height: 7rem;
   background-color: rgb(0, 0, 0, 0.75);
@@ -14,9 +16,7 @@
 
   color: white;
 }
-.special{
-  color:yellow;
-}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -26,10 +26,12 @@
 .logo{
   position:absolute;
   top:1rem;
-  left:4.5rem;
 height:5rem;
 
+
 }
+
+
 
 .navlist {
   display: flex;
@@ -42,14 +44,16 @@ height:5rem;
   
   padding: 0rem 4rem;
   height:2rem;
-  
+  color:white;
   
   
 }
 
-.navele:hover {
-    text-decoration: underline;
-  }
+.navele a{
+  color:white;
+  text-decoration: none;
+}
+
 
 .break{
     height:7.5rem;
@@ -60,7 +64,7 @@ height:5rem;
     width:100%;
   background-image: url("backg.jpg");
   background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     display:flex;
     font-size: 2rem;
     color: white;
@@ -101,3 +105,84 @@ height:auto;
   padding:2rem;
   border-radius:8.5rem;
 }
+
+.pagebreak {
+  height:5rem;
+  width:100%;
+
+}
+
+.container2{
+  margin:2rem;
+ display: flex;
+    align-items: center;
+    justify-content: center
+  
+}
+
+
+.heading{
+  font-size:125%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.text1{
+  font-size:70%;
+  padding:2rem;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation2 {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+
+.hover-underline-animation2::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 20px;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation2:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
