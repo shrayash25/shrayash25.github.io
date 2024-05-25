@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  type="text/css" href="home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="home1.css" />
     <title>Radio Control Club</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <Navbar class="navbar sticky">
-        <ul class="navlist" style="list-style: none;">
-            <li class="navele">
-                <img src="rclogo.png" alt="RC Club" class="logo"> <h3> RC CLUB</h3>
-            </li>
-            <li class="navele">PROJECTS</li>
-            <li class="navele special">EVENTS  </li>
-            <li class="navele">ACHIEVEMENTS</li>
-            <li class="navele">ABOUT US</li>
-            <li class="navele">CONTACT US</li>
-
-        </ul>
+      <ul class="navlist" style="list-style: none">
+        <li class="navele">
+          <img src="rclogo.png" alt="RC Club" class="logo" />
+        </li>
+        <li class="navele hover-underline-animation2"><h3>RC CLUB</h3></li>
+        <li class="navele hover-underline-animation2"><a href="#projects">PROJECTS</a></li>
+        <li class="navele hover-underline-animation2"><a ABOUT href="#">ACHIEVEMENTS</a></li>
+        <li class="navele hover-underline-animation2"><a ABOUT href="#">ABOUT US</a></li>
+        <li class="navele hover-underline-animation2"><a CONTACT href="#">CONTACT US</a></li>
+      </ul>
     </Navbar>
 
     <div class="break"></div>
 
     <div class="container">
-           <div class="banner "> <div class="typed"><h1>Radio Control Club</h1> </div>
-            <p>Birla Institute of Technology and Science, Pilani</p> 
-           </div> 
-           <div >
-                <img class="blogo" src="bits-logo.png" alt="BITS, PILANI">
-           </div>
+      <div class="banner">
+        <div class="typed"><h1>Radio Control Club</h1></div>
+        <p>Birla Institute of Technology and Science, Pilani</p>
+      </div>
+      <div>
+        <img class="blogo" src="bits-logo.png" alt="BITS, PILANI" />
+      </div>
     </div>
+
+   <!-- The upper code is for the navbar and the first hero section. The code below has been divided into separate containers separated by page break div. This is done to ensure visible breaks between the sections in the website.-->
+    <div class="pagebreak"></div>
+    <div class="containerbig">
+      <div class="heading" id="projects">
+        <h1 class="hover-underline-animation">Projects</h1>
+      </div>
+    <div class="container2">
+      <div class="image">
+        <img src="img1.jpg">
+      </div>
+      <div class="text1">
+        <h1 style="font-size:300%;text-decoration:underline;">Mjolnir</h1>
+        <h1>A radio-controlled aircraft (often called RC aircraft or RC plane) is a small flying machine that is radio controlled by an operator on the ground using a hand-held radio transmitter.</h1>
+      </div>
+    </div>
+
+    <div class="pagebreak"></div>
 
     <div class="container2">
-        
+      
+      <div class="text1">
+        <h1 style="font-size:300%;text-decoration:underline;">The StormBreaker</h1>
+        <h1>Drones are small or medium-sized unmanned aerial vehicles (UAVs). They’re unique in that they can drive remotely and autonomously, and they’re capable of maintaining a controlled, sustained level of flight. </h1>
+      </div>
+      <div class="image">
+        <img src="img2.jpg">
+      </div>
     </div>
 
-</body>
+    <div class="pagebreak"></div>
+
+    <div class="container2">
+      <div class="image">
+        <img src="img1.jpg">
+      </div>
+      <div class="text1">
+        <h1 style="font-size:300%;text-decoration:underline;">Captain America's Sheild</h1>
+        <h1>A radio-controlled aircraft (often called RC aircraft or RC plane) is a small flying machine that is radio controlled by an operator on the ground using a hand-held radio transmitter.</h1>
+      </div>
+    </div>
+  </div>
+
+  </body>
 </html>
