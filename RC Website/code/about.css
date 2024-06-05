@@ -1,0 +1,123 @@
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Abel", sans-serif;
+  }
+  
+  
+  
+  .navbar {
+    z-index:5;
+    -webkit-backdrop-filter: blur(5px);
+  
+    backdrop-filter: blur(5px);
+  
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+  
+    color: white;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .logo{
+    position:absolute;
+    top:1rem;
+  height:5rem;
+  
+  
+  }
+  
+  
+  
+  .navlist {
+    display: flex;
+    justify-content: space-evenly;
+  
+    color: white;
+  }
+  
+  .navele {
+    
+    padding: 0rem 4rem;
+    height:2rem;
+    color:white;
+    
+    
+  }
+  
+  .navele a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  
+  .break{
+      height:7.5rem;
+      background-color: black;
+  }
+
+  /* Foot Panel */
+
+.foot-panel{
+    background-color: #494848;
+    
+    color:white;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+  
+  }
+  
+  .foot-panel2{
+    background-color: #8f8f8f;
+    line-height:150%;
+    color:#ffffff;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  
+  }
+  
+  foot-panel2 ul p{
+    
+    margin-top:10px;
+  }
+  
+  foot-panel2 ul{
+    
+    margin-top:20px;
+  }
+  
+  
+  .copyright{
+    background-color:#585858;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 80%;
+    padding:20px;
+  }
+  
+  .redirect a{
+    color:rgb(248, 248, 248);
+    padding:10px;
+  }
