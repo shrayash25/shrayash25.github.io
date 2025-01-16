@@ -1,0 +1,450 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.league-spartan-unique {
+  font-family: "League Spartan", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.just-me-again-down-here-regular {
+  font-family: "Just Me Again Down Here", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald-unique {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+}
+:root {
+  --primary: #ffffff;
+  --secondary: #1c1c1c#ffffff;
+  --accent: #ffffff;
+  --background: #171717;
+  --text: #ffffff;
+  --size: 20px;
+}
+
+body {
+  margin: 0;
+  
+  padding: 0;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Oswald", serif;
+}
+
+.gcontainer {
+  width: 100%;
+  height: 100%;
+  --color: rgba(115, 115, 115, 0.788);
+  background-color: var(--secondary);
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+}
+.hero {
+  min-height: 100vh;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navigation Styles */
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+
+}
+
+.nav-links a {
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+/* Home Section Styles */
+
+.bigbox{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.hero-box1{
+  flex: 1;
+  width:50%;
+}
+
+.hero-box2{
+  padding:3rem;
+  flex:1;
+  width:50%;
+  margin-right: -30rem;;
+
+
+}
+.tb{
+  padding:1rem;
+  margin-top:-1rem;
+  font-family: "Just Me Again Down Here", serif;
+  font-size: 140%;
+}
+.emsp{
+  height:2rem;
+}
+.home-content {
+
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: 7rem;
+ 
+}
+.quickc{
+  display:flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 1rem ;
+  background-color: #fadd9b;
+  border-radius:1rem;
+  width:8rem;
+
+}
+.ltext {
+  font-family: "League Spartan", serif;
+  font-size: 500%;
+  line-height:24%;
+  letter-spacing: -0.27rem;
+}
+li::marker {
+  content: ""; /* Removes the marker content */
+  color: transparent; /* Makes the marker invisible */
+  font-size: 0; /* Makes it effectively disappear */
+}
+
+/* From Uiverse.io by dylanharriscameron */ 
+.card {
+  position: relative;
+  width: 316.66.7px;
+  height: 333.3px;
+  border-radius: 14px;
+  z-index: 1111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 30px #ffab00, -10px -10px 30px #ffffff;
+  animation: float 5s ease-in-out infinite;
+  
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3rem); /* Moves up by 10px */
+  }
+}
+
+
+.bg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 583px;
+  height: 324px;
+  z-index: 2;
+  background: rgba(40, 40, 40, 0.95);
+  backdrop-filter: blur(24px);
+  border-radius: 10px;
+  overflow: hidden;
+  outline: 3px solid rgb(0, 0, 0);
+}
+
+.blob {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  opacity: 1;
+  filter: blur(10px);
+  animation: blob-bounce 5s infinite ease;
+}
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+}
+
+
+
+/* Projects Section Styles */
+.projects-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.projects-content h1{
+  font-size: 300%;
+  font-family: "Oswald", serif;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: var(--background);
+  box-shadow: 5px 5px 10px #cccccc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px var(--primary) solid;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 10px 10px 30px #ffab00, -10px -10px 30px #fffdeb;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tech-tag {
+
+  background-color: #ffab00;
+  color: black;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.project-card p{
+  font-size:110%;
+}
+.project-links {
+  display: block;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  color: var(--text);
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+  color: var(--accent);
+}
+
+/* About Section Styles */
+.aboutt {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.aboutt h1{
+  font-size: 300%;
+  font-family: "Oswald", serif;
+}
+
+.about-card {
+  margin:2rem auto;
+  background-color: var(--background);
+  box-shadow: 20px 20px 60px #cccccc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px var(--primary) solid;
+  transition: ease;
+  box-shadow: 10px 10px 30px #ffab00, -10px -10px 30px #ffffff;
+}
+
+.about-content {
+  max-width: 80%;
+  
+}
+
+.about-text {
+  margin-bottom: 3rem;
+  font-family: "Just Me Again Down Here", serif;
+  font-size:225%;
+}
+/* Skills section Style  */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0rem;
+}
+.skills-container{
+
+  width: 100%;
+  max-width: 1200px;
+
+  padding-top: 2rem;
+
+}
+.skills-category h4 {
+
+  color: var(--secondary);
+  margin-bottom: 1rem;
+}
+
+.boxess{
+  margin:auto;
+  background-color: var(--background);
+  box-shadow: 20px 20px 60px #cccccc;
+  box-shadow: 10px 10px 30px #ffab00, -10px -10px 30px #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 2px var(--primary) solid;
+  max-width:80%;
+}
+.skills-container{
+  margin:7rem;
+}
+.skills-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.skills-title{
+  font-size: 300%;
+  font-family: "Oswald", serif;
+}
+
+.skill-icon{
+  height:60px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin:0.5rem;
+  padding:0.5rem;
+  box-shadow: 5px 5px 4px #ffda82, -3px -3px 5px #ffffffbe;
+}
+
+
+
+
+
+
+/* Contact Section Styles */
+.contact-content {
+  margin:6rem auto;
+
+  background-color: var(--background);
+  box-shadow: 20px 20px 60px #cccccc;
+  box-shadow: 10px 10px 30px #ffab00, -10px -10px 30px #ffffff;
+  padding: 1.5rem;
+  padding-bottom:5rem;
+  border-radius: 1rem;
+  border: 2px var(--primary) solid;
+  max-width:80%;
+  display:block;
+  justify-content: center;
+}
+
+.contact-methods {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.contact-methods a{
+  text-decoration: none;
+  color:white;
+  cursor:pointer;
+}
+
+.contactit {
+  background-color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+  border-radius: 0.55rem;
+   border:2px white;
+  transition: color 0.3s ease;
+  padding: 1rem;
+ 
+}
+
+.contact-item:hover {
+  color: var(--accent);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .section {
+    padding: 1rem;
+  }
+  
+  .intro-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .navbar {
+    right: 1rem;
+  }
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: 0;
+}
