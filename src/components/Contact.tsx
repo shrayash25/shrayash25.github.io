@@ -8,9 +8,9 @@ const Contact: React.FC = () => {
       <h3>I'm always open to new opportunities and interesting projects.</h3>
       
       <div className="contact-methods">
-        <a href="mailto:your.email@example.com" className="contactit">
+        <a href="mailto:shrayash25.works@gmail.com" className="contactit">
           <Mail size={30} />
-          <p>shrayash25.works@gmail.com</p>
+          <p> Click here to mail: shrayash25.works@gmail.com</p>
         </a>
         <a href="https://in.linkedin.com/in/shrayash-barnwal-aab29128a" target="#" className="contactit">
           <Linkedin size={30} />

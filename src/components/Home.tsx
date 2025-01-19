@@ -29,8 +29,10 @@ const Home: React.FC = () => {
              <div className="tb">
               <h2>Hi, I'm Shrayash, an Electrical and Electronics Engineering undergrad at BITS Pilani. Passionate about problem-solving and building impactful solutions to make a difference.</h2>
               <div className="quickc">
-                <Github size={30} color="black" />
-                <LinkedinIcon size={30} color="black"/>
+                <a href="https://github.com/shrayash25/" target="#">
+                <Github size={30} color="black" /></a>
+                <a href="https://in.linkedin.com/in/shrayash-barnwal-aab29128a" target="#"> 
+                <LinkedinIcon size={30} color="black"/></a>
                 </div>
               
              </div>

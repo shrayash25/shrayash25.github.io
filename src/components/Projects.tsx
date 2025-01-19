@@ -38,7 +38,7 @@ const Projects: React.FC = () => {
       description: "CryptoZen is a cryptocurrency-based marketplace built using HTML and CSS. It features a structured and intuitive UI, showcasing how users could browse and purchase items using crypto. While this project focuses solely on the frontend without backend integration or responsiveness, it effectively demonstrates the visual design and layout of a crypto-powered marketplace.",
       technologies: ["HTML", "CSS", "JavaScript"],
       timestamp:"Aug 2024",
-      liveLink: "https://shrayash25.github.io/BITS%20Blockchain/index.html "
+      liveLink: ""
     },
     
     
