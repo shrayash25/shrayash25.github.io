@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
       liveLink: ""
     },
     {
-      title: "Poseidon- A Scalable Full-Stack E-Commerce Platform for Apparel Retail",
+      title: "Poseidon- A Full-Stack E-Commerce Platform for Apparel Retail",
       description: "This is a full-stack e-commerce web application featuring a responsive UI for product browsing, cart management, and secure checkout. The backend handles authentication, order processing, and payment integration. User authentication is secured with JSON Web Tokens (JWT), while passwords are encrypted using bcrypt. The system efficiently manages products, orders, and user data, with payments processed via QR-based online transactions.",
       technologies:["React", "TypeScript", "Vite", "Node.js", "Express", "MongoDB", "JWT", "bcrypt"] ,
       timestamp:" June - July 2024",
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
     {
       title: "BrainTumorNet",
       description: "This project is a machine learning model that classifies brain tumors from MRI images into four categories: glioma, meningioma, pituitary tumor, or no tumor. Using a Convolutional Neural Network (CNN), the model is trained on labeled MRI images, with preprocessing steps like resizing and one-hot encoding. The CNN extracts features and uses a softmax activation to output tumor classifications. The system aims to assist in automated brain tumor diagnosis.",
-      technologies: ["Python", "TensorFlow/Keras", "Scikit-Learn", "OpenCV", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
+      technologies: ["Python", "TensorFlow/Keras", "Scikit-Learn", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
       timestamp:" June - July 2024",
       liveLink: ""
     },
